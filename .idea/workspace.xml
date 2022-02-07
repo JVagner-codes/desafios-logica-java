@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="960a0564-61b9-4a65-9e46-c156ec53e19f" name="Default Changelist" comment="Criando o readme, além de adicionar a primeira lógica resolvida">
+    <list default="true" id="960a0564-61b9-4a65-9e46-c156ec53e19f" name="Default Changelist" comment="resolvendo o desafio de lógica 'Colchão'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +38,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.AcimaDaDiagonalPrincipal">
-    <configuration name="AcimaDaDiagonalPrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.acimadadiagonalprincipal.AcimaDaDiagonalPrincipal" />
+  <component name="RunManager" selected="Application.AnaliseDeNumeros">
+    <configuration name="AnaliseDeNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.analisedenumeros.AnaliseDeNumeros" />
       <module name="desafios-logica-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.desafio.logica.acimadadiagonalprincipal.*" />
+          <option name="PATTERN" value="com.desafio.logica.analisedenumeros.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MensagemDoPadreDoBalao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.mensagemdopadredobalao.MensagemDoPadreDoBalao" />
+    <configuration name="AndandoNoTempo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.andandonotempo.AndandoNoTempo" />
       <module name="desafios-logica-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.desafio.logica.mensagemdopadredobalao.*" />
+          <option name="PATTERN" value="com.desafio.logica.andandonotempo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservatorioDeMel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.reservatoriodemel.ReservatorioDeMel" />
+    <configuration name="Ddd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.ddd.Ddd" />
       <module name="desafios-logica-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.desafio.logica.reservatoriodemel.*" />
+          <option name="PATTERN" value="com.desafio.logica.ddd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SenhaFixa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.senhafixa.SenhaFixa" />
+    <configuration name="Saida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.saida1.Saida" />
       <module name="desafios-logica-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.desafio.logica.senhafixa.*" />
+          <option name="PATTERN" value="com.desafio.logica.saida1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.topn.TopN" />
+    <configuration name="TempoDoDobby" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desafio.logica.tempododobby.TempoDoDobby" />
       <module name="desafios-logica-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.desafio.logica.topn.*" />
+          <option name="PATTERN" value="com.desafio.logica.tempododobby.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AcimaDaDiagonalPrincipal" />
-        <item itemvalue="Application.TopN" />
-        <item itemvalue="Application.MensagemDoPadreDoBalao" />
-        <item itemvalue="Application.SenhaFixa" />
-        <item itemvalue="Application.ReservatorioDeMel" />
+        <item itemvalue="Application.AnaliseDeNumeros" />
+        <item itemvalue="Application.Saida" />
+        <item itemvalue="Application.AndandoNoTempo" />
+        <item itemvalue="Application.Ddd" />
+        <item itemvalue="Application.TempoDoDobby" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642859285032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="resolvendo o desafio de lógica 'Batalha de Digitrons'">
+      <created>1642982874865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642982874866</updated>
+    </task>
+    <task id="LOCAL-00004" summary="resolvendo o desafio de lógica 'Colchão'">
+      <created>1642982921735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642982921735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +169,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Criando o readme, além de adicionar a primeira lógica resolvida" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando o readme, além de adicionar a primeira lógica resolvida" />
+    <MESSAGE value="resolvendo o desafio de lógica 'Batalha de Digitrons'" />
+    <MESSAGE value="resolvendo o desafio de lógica 'Colchão'" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolvendo o desafio de lógica 'Colchão'" />
   </component>
 </project>
