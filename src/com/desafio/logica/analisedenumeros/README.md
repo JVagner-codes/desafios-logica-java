@@ -1,5 +1,5 @@
 
-# Teste de lógica - Acima da diagonal principal
+# Teste de lógica - Análise de números
 
 Neste repositório se encontra um desafio de lógica, onde o desafio foi proposto pela plataforma Digital Innovation One, e aqui se encontra uma solução criada por mim.
 
