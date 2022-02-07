@@ -1,8 +1,6 @@
 package com.desafio.logica.andandonotempo;
 
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 public class AndandoNoTempo {
 
