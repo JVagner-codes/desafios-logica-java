@@ -1,4 +1,4 @@
-# Teste de lógica - Batalha de Digitrons
+# Teste de lógica - Colchão
 
 Neste repositório se encontra um desafio de lógica, onde esse desafio foi proposto pela plataforma Digital Innovation One, e aqui se encontra uma solução criada por mim.
 

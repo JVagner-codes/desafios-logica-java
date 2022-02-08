@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="960a0564-61b9-4a65-9e46-c156ec53e19f" name="Default Changelist" comment="update README">
-      <change afterPath="$PROJECT_DIR$/src/com/desafio/logica/andandonotempo/README.md" afterDir="false" />
+    <list default="true" id="960a0564-61b9-4a65-9e46-c156ec53e19f" name="Default Changelist" comment="adicionando o README do desafio 'Andando no Tempo'">
+      <change afterPath="$PROJECT_DIR$/src/com/desafio/logica/ddd/Ddd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/desafio/logica/ddd/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/desafio/logica/andandonotempo/AndandoNoTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/desafio/logica/andandonotempo/AndandoNoTempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/desafio/logica/colchao/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/desafio/logica/colchao/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644194356102</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="resolvendo o desafio 'Andando no Tempo'">
+      <created>1644194816523</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644194816523</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adicionando o README do desafio 'Andando no Tempo'">
+      <created>1644194862356</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644194862356</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +204,8 @@
     <MESSAGE value="resolvendo o desafio de lógica 'Colchão'" />
     <MESSAGE value="resolucao do desafio 'Analise de numeros'" />
     <MESSAGE value="update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README" />
+    <MESSAGE value="resolvendo o desafio 'Andando no Tempo'" />
+    <MESSAGE value="adicionando o README do desafio 'Andando no Tempo'" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando o README do desafio 'Andando no Tempo'" />
   </component>
 </project>
